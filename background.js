@@ -1,11 +1,4 @@
-// Play the audio
-function playAudio() {
-    console.log('audio played');
-    const audio = new Audio();
-    audio.src = chrome.extension.getURL("audio.mp3");
-    audio.play();
-}
-  
+
 // Set a random interval for this
 function setRandomInterval() {
     // rn its between 10-5 seconds
